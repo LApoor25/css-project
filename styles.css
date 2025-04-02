@@ -1,0 +1,175 @@
+
+/* Navbar Styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+/* Header styling */
+.main-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.main-header .intro-text {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* Projects Section */
+.projects {
+    padding: 30px;
+    text-align: center;
+}
+
+.project-item {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 300px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.project-item p {
+    font-size: 1em;
+    color: #555;
+}
+.project-item:hover {
+    transform: scale(1.05); /* Slightly zoom in */
+    transition: transform 0.3s ease-in-out;
+}
+/* Link to Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Header Styling */
+.main-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.main-header .intro-text {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* Projects Section */
+.projects {
+    padding: 30px;
+    text-align: center;
+}
+
+.project-item {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 300px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.project-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
